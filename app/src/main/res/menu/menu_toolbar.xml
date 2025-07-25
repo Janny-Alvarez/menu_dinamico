@@ -1,0 +1,25 @@
+<!-- res/menu/menu_toolbar.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_buscar"
+        android:title="Buscar"
+        android:icon="@drawable/iconbuscar"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_nuevo"
+        android:title="Nuevo"
+        android:icon="@drawable/iconnuevo"
+        android:orderInCategory="101"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Configuración"
+        android:icon="@drawable/iconsettings"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+</menu>
